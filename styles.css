@@ -1,1 +1,40 @@
 /*  your css code here. If applicable */
+#block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(173, 173, 173,0.5);
+    border:2px solid black;
+    width:500px;
+    height:250px;
+    border-radius: 20px;
+    /* margin:auto ; */
+    /* position: relative;
+    top:35%;
+    left: 35%; */
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+}
+.circle{
+    border-radius: 50%;
+    border:1px solid black;
+    width: 80px;
+    height:80px; 
+}
+
+.green{
+    background-color: green;
+}
+.yellow{
+    order:1;
+    background-color: yellow;
+}
+.red{
+    order:2;
+    background-color: red;
+}
